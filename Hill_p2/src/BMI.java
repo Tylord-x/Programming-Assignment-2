@@ -41,7 +41,7 @@ public class BMI {
 		System.out.println("Underweight = < 18.5");
 		System.out.println("Normal Weight = 18.5 - 24.9");
 		System.out.println("Overweight = 25.0 - 29.9");
-		System.out.println("Obese = < 30.0");
+		System.out.println("Obese = > 30.0");
 
 	}
 
