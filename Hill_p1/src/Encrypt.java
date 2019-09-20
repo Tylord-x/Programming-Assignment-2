@@ -9,6 +9,11 @@ public class Encrypt {
 	      int val4;
 	      
 	      System.out.print("Please enter 4 integers with spaces in between each: ");
+	      
+	      val1 = scnr.nextInt();
+	      val2 = scnr.nextInt();
+	      val3 = scnr.nextInt();
+	      val4 = scnr.nextInt();
 
 	}
 
