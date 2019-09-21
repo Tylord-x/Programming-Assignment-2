@@ -4,6 +4,7 @@ public class Poll {
 
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
+		int maxInt = 0, minInt = 0;
 		
 		String[] topic = new String[5];
 		topic[0] = "Video Games";
@@ -42,7 +43,6 @@ public class Poll {
 		       System.out.print("\tAverage = "+ average);
 		}
 		double max = total[0], min = total[0];
-		   int maxInt = 0, minInt = 0;
 		   for(int i = 0; i < 5; i++){
 		       if(max < total [i]){
 		           max = total[i];
