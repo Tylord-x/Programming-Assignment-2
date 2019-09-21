@@ -41,8 +41,20 @@ public class Poll {
 		       average= total[i] / 10;
 		       System.out.print("\tAverage = "+ average);
 		}
-		
-		
+		double max = total[0], min = total[0];
+		   int maxInt = 0, minInt = 0;
+		   for(int i = 0; i < 5; i++){
+		       if(max < total [i]){
+		           max = total[i];
+		           maxInt=i;
+		       }
+		       if(min > total[0]){
+		           min = total[0];
+		           minInt = i;
+		       }
+		   }
+		System.out.println("\n\nHighest total rated topic: "+ topic[maxInt] + "\tTotal Rating: " + max);
+		System.out.println("\nLowest total rated topic: "+ topic[minInt] + "\tTotal Rating: " + min);
 	}
 
 }
